@@ -1,4 +1,4 @@
-Model Selection and Performance Analysis for Classification of Custom CNN Features Dataset
+Model Selection and Performance Analysis for Classification of Custom CNN Features Dataset:
 
 After a thorough analysis of multiple classification models on the given dataset containing 3253 records and 200 attributes across three class labels, Random Forest Classifier emerges as the most suitable model for this task. This decision is supported by its superior performance metrics, balanced trade-offs, and robust generalization capabilities.  
 
