@@ -1,12 +1,12 @@
 import os
 import numpy as np
 from sklearn.model_selection import train_test_split
-from tensorflow.keras.preprocessing.image import load_img, img_to_array
-from tensorflow.keras.utils import to_categorical
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Flatten, Dropout, Conv2D, MaxPooling2D, BatchNormalization
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
+from tensorflow.keras.preprocessing.image import load_img, img_to_array # type: ignore
+from tensorflow.keras.utils import to_categorical # type: ignore
+from tensorflow.keras.models import Sequential # type: ignore
+from tensorflow.keras.layers import Dense, Flatten, Dropout, Conv2D, MaxPooling2D, BatchNormalization # type: ignore
+from tensorflow.keras.optimizers import Adam # type: ignore
+from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau # type: ignore
 import matplotlib.pyplot as plt
 
 def load_dataset(dataset_path):
